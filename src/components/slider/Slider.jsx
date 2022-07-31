@@ -39,7 +39,7 @@ export default function Slider() {
                     >
                         <img 
                         src={process.env.PUBLIC_URL + `/images/img${index + 1}.jpeg`} 
-                        alt='peppers'
+                        alt=''
                         />
                     </div>
                 )

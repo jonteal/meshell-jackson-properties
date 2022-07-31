@@ -12,11 +12,11 @@ const Navigation = () => {
                     <img src="" className="" alt="" />
                 </Link>
                 <div className="nav-links">
+                    <Link className="nav-link" to='/'>
+                      HOME
+                    </Link>
                     <Link className="nav-link" to='about'>
                         ABOUT
-                    </Link>
-                    <Link className="nav-link" to='info'>
-                        INFO
                     </Link>
                     <Link className="nav-link" to='contact'>
                        CONTACT
