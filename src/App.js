@@ -8,6 +8,7 @@ import Navigation from './routes/navigation/Navigation';
 import Home from './routes/home/Home';
 import About from './routes/about/About';
 import Contact from './routes/contact/Contact';
+import Rentals from './routes/rentals/Rentals';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route index element={<Home />}/>
         <Route path='about' element={<About />} />
         <Route path='contact' element={<Contact />} />
+        <Route path='rentals' element={<Rentals />} />
       </Route>
     </Routes>
     <Footer />

@@ -14,6 +14,14 @@ const Home = () => {
                 <Slider />
             </div>
 
+            <div>
+              Follow us | @meshell-jackson-properties!
+            </div>
+
+            <p>
+              Meshell-Jackson Properties, LLC | email: info@meshell-jackson.com
+            </p>
+
             <Outlet />
         </div>
   );

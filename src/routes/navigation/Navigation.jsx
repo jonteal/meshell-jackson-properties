@@ -2,6 +2,8 @@ import { Fragment } from "react";
 import { Link } from "react-router-dom";
 import { Outlet } from "react-router-dom";
 
+import HouseLogo from '../../assets/house_icon.png';
+
 import './navigation.css';
 
 const Navigation = () => {
@@ -9,17 +11,20 @@ const Navigation = () => {
     <Fragment>
             <div className="navigation-container">
                 <Link className="logo-container" to='/'>
-                    <img src="" className="" alt="" />
+                    <img src={HouseLogo} className="logo" alt="Meshell-Jackson Properties Logo" />
                 </Link>
                 <div className="nav-links">
                     <Link className="nav-link" to='/'>
                       HOME
                     </Link>
+                    <Link className="nav-link" to='rentals'>
+                      VACATION RENTALS
+                    </Link>
                     <Link className="nav-link" to='about'>
-                        ABOUT
+                      ABOUT
                     </Link>
                     <Link className="nav-link" to='contact'>
-                       CONTACT
+                      CONTACT
                     </Link>
 
                 </div>
