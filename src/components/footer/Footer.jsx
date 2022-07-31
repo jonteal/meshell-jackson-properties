@@ -9,22 +9,22 @@ const Footer = () => {
     return (
         <div className='footer-container'>
             <div className='footer-item-container'>
-                <h4>CONTACT INFO</h4>
+                <h4 className='footer-header'>CONTACT INFO</h4>
                 <p>123 Main St</p>
                 <p>Fayetteville, AR 72701</p>
                 <p>555-555-5555</p>
                 <p>info@meshell-jackson.com</p>
             </div>
             <div className='footer-item-container'>
-                <h4>QUICK LINKS</h4>
+                <h4 className='footer-header'>QUICK LINKS</h4>
                 <Link to='about'>ABOUT</Link>
                 <Link to='contact'>CONTACT US</Link>
             </div>
             <div className='footer-item-container'>
-                <h4>HELP</h4>
+                <h4 className='footer-header'>HELP</h4>
             </div>
             <div className='footer-item-container'>
-                <h4>SOCIAL</h4>
+                <h4 className='footer-header'>SOCIAL</h4>
                 <div className='footer-social-container'>
                     <img className='footer-social-icon' src={FBIcon} alt="Clickable Icon of Facebook logo" />
                     <img className='footer-social-icon' src={TwitterIcon} alt="Clickable Icon of Twitter logo" />

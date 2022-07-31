@@ -28,4 +28,10 @@
 .nav-link {
   padding: 10px 15px;
   cursor: pointer;
+  text-decoration: none;
+  color: rgb(31, 31, 31);
+}
+
+.nav-link:hover {
+  text-decoration: underline;
 }
