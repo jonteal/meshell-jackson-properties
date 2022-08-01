@@ -1,7 +1,7 @@
 const Management = () => {
   return (
     <div>
-      Management
+      Learn about our short term rental management services
     </div>
   );
 }

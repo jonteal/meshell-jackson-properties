@@ -20,6 +20,9 @@ const Navigation = () => {
                     <Link className="nav-link" to='rentals'>
                       VACATION RENTALS
                     </Link>
+                    <Link className="nav-link" to='management'>
+                      MANAGEMENT
+                    </Link>
                     <Link className="nav-link" to='about'>
                       ABOUT
                     </Link>

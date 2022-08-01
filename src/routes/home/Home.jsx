@@ -8,7 +8,7 @@ import './home.css';
 const Home = () => {
   return (
     <div className="home-container">
-            <h1 className="home-title">Meshell-Jackson Properties</h1>
+            <h1 className="home-title">Ozark Airbnb</h1>
 
             <div>
                 <Slider />
