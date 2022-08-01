@@ -13,7 +13,7 @@ const Footer = () => {
                 <p>123 Main St</p>
                 <p>Fayetteville, AR 72701</p>
                 <p>555-555-5555</p>
-                <p>info@meshell-jackson.com</p>
+                <p>info@ozarkairbnb.com</p>
             </div>
             <div className='footer-item-container'>
                 <h4 className='footer-header'>QUICK LINKS</h4>
@@ -33,7 +33,7 @@ const Footer = () => {
             </div>
             <div className='footer-item-container'>
                 <h4>Copyright© 2022</h4>
-                <p>Meshell-Jackson Properties, LLC</p>
+                <p>Ozark Airbnb, LLC</p>
                 <p>All Rights Reserved</p>
             </div>
         </div>

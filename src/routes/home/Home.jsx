@@ -15,11 +15,11 @@ const Home = () => {
             </div>
 
             <div>
-              Follow us | @meshell-jackson-properties!
+              Follow us | @ozarkairbnb!
             </div>
 
             <p>
-              Meshell-Jackson Properties, LLC | email: info@meshell-jackson.com
+              Ozark Airbnb, LLC | email: info@ozarkairbnb.com
             </p>
 
             <Outlet />
