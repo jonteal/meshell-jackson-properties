@@ -1,5 +1,8 @@
 import { useRef, useState } from "react";
 import emailjs from "emailjs-com";
+import PhoneIcon from '../../assets/icons/phone.png';
+import LocationIcon from '../../assets/icons/location.png';
+import EmailIcon from '../../assets/icons/email.png';
 
 
 import './contact.css';
@@ -39,7 +42,7 @@ const Contact = () => {
             <div className="contact-info">
                 <div className="contact-info-item">
                     <img
-                        src=''
+                        src={PhoneIcon}
                         alt="Phone icon"
                         className="contact-icon"
                     />
@@ -47,15 +50,15 @@ const Contact = () => {
                 </div>
                 <div className="contact-info-item">
                     <img
-                        src=''
+                        src={EmailIcon}
                         alt="Email icon"
                         className="contact-icon"
                     />
-                    info@meshell-jackson.com
+                    info@ozarkairbnb.com
                 </div>
                 <div className="contact-info-item">
                     <img
-                        src=''
+                        src={LocationIcon}
                         alt="Location icon"
                         className="contact-icon"
                     />
@@ -74,7 +77,7 @@ const Contact = () => {
                 <input tabIndex={"0"} type="text" placeholder="Subject" name="user_subject" />
                 <input tabIndex={"0"} type="text" placeholder="Email" name="user_email" />
                 <textarea tabIndex={"0"} rows="5" placeholder="Message" name="message" />
-                <button>Submit</button>
+                <button className="button">Submit</button>
                 {done && "Thank you for your message!"}
             </form>
         </div>

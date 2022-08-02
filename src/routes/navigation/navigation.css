@@ -35,3 +35,18 @@
 .nav-link:hover {
   text-decoration: underline;
 }
+
+.nav-book-button {
+  border: none;
+  padding: 8px;
+  background-color: #2D3142;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  font-weight: lighter;
+  transition: 0.2s;
+}
+
+.nav-book-button:hover {
+  background-color: #555d80;
+}

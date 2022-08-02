@@ -29,6 +29,9 @@ const Navigation = () => {
                     <Link className="nav-link" to='contact'>
                       CONTACT
                     </Link>
+                    <button className="nav-book-button">
+                      BOOK WITH US
+                    </button>
 
                 </div>
             </div>

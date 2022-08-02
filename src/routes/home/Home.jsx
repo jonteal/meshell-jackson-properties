@@ -14,6 +14,14 @@ const Home = () => {
                 <Slider />
             </div>
 
+            <h2 className="home-bio-title">Find your next home away from home!</h2>
+
+            <div>
+              <p className="home-bio-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio facere rerum nostrum eos ea facilis aspernatur dolorum eaque magni, expedita dolor! Deleniti odio aliquam in consequatur, aperiam quam, non alias inventore iusto dolor repellendus unde beatae vero, nesciunt porro. Totam soluta commodi, quis et animi vero perspiciatis officia corporis eligendi!</p>
+
+              <p className="home-bio-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus ullam veniam architecto soluta dolor itaque quasi quos, excepturi modi nostrum fugit distinctio iure nam minus delectus beatae laboriosam. Omnis expedita provident officia dolore tempore molestias minus totam, voluptas accusantium nam?</p>
+            </div>
+
             <div className="home-social-text">
               Follow us | @ozarkairbnb!
             </div>
