@@ -14,11 +14,11 @@ const Home = () => {
                 <Slider />
             </div>
 
-            <div>
+            <div className="home-social-text">
               Follow us | @ozarkairbnb!
             </div>
 
-            <p>
+            <p className="home-contact-text">
               Ozark Airbnb, LLC | email: info@ozarkairbnb.com
             </p>
 

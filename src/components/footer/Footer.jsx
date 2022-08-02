@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import FBIcon from '../../assets/icons/fb_logo_icon.png';
 import TwitterIcon from '../../assets/icons/twitter_logo_icon.png';
 import IGIcon from '../../assets/icons/ig_logo_icon.png';
+import TikTokIcon from '../../assets/icons/tt_logo_icon.png';
 
 import './footer.css';
 
@@ -17,6 +18,9 @@ const Footer = () => {
             </div>
             <div className='footer-item-container'>
                 <h4 className='footer-header'>QUICK LINKS</h4>
+                <Link to='/'>HOME</Link>
+                <Link to='/rentals'>VACATION RENTALS</Link>
+                <Link to='management'>MANAGEMENT</Link>
                 <Link to='about'>ABOUT</Link>
                 <Link to='contact'>CONTACT US</Link>
             </div>
@@ -26,9 +30,22 @@ const Footer = () => {
             <div className='footer-item-container'>
                 <h4 className='footer-header'>SOCIAL</h4>
                 <div className='footer-social-container'>
-                    <img className='footer-social-icon' src={FBIcon} alt="Clickable Icon of Facebook logo" />
-                    <img className='footer-social-icon' src={TwitterIcon} alt="Clickable Icon of Twitter logo" />
-                    <img className='footer-social-icon' src={IGIcon} alt="Clickable Icon of Instagram logo" />
+                    <a href="https://www.facebook.com/ozarkairbnb" rel="noreferrer noopener" target="_blank">
+                        <img className='footer-social-icon' src={FBIcon} alt="Clickable Icon of Facebook logo" />
+                    </a>
+
+                    <a href="" rel="noreferrer noopener" target="_blank">
+                        <img className='footer-social-icon' src={TwitterIcon} alt="Clickable Icon of Twitter logo" />
+                    </a>
+
+                    <a href="https://instagram.com/ozark.airbnb" rel="noreferrer noopener" target="_blank">
+                        <img className='footer-social-icon' src={IGIcon} alt="Clickable Icon of Instagram logo" />
+                    </a>
+                    
+                    <a href="https://www.tiktok.com/@ozark.airbnb" rel="noreferrer noopener" target="_blank">
+                        <img className='footer-social-icon' src={TikTokIcon} alt="Clickable Icon of TikTok logo" />
+                    </a>
+                    
                 </div> 
             </div>
             <div className='footer-item-container'>
