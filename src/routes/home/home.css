@@ -6,10 +6,12 @@
 
 .home-social-text {
   text-align: center;
+  font-size: 1.3rem;
 }
 
 .home-contact-text {
   text-align: center;
+  font-size: 1.3rem;
 }
 
 .home-bio-title {
@@ -22,4 +24,27 @@
   text-align: align;
   margin-left: 10%;
   margin-right: 10%;
+  font-size: 1.2rem;
+}
+
+.home-button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.home-book-button {
+  border: none;
+  padding: 8px 20px;
+  background-color: #2D3142;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  font-weight: lighter;
+  transition: 0.2s;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.home-book-button:hover {
+  background-color: #555d80;
 }

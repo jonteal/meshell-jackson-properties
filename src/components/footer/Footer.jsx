@@ -11,21 +11,22 @@ const Footer = () => {
         <div className='footer-container'>
             <div className='footer-item-container'>
                 <h4 className='footer-header'>CONTACT INFO</h4>
-                <p>123 Main St</p>
-                <p>Fayetteville, AR 72701</p>
-                <p>555-555-5555</p>
-                <p>info@ozarkairbnb.com</p>
+                <p className='footer-list-item'>123 Main St</p>
+                <p className='footer-list-item'>Fayetteville, AR 72701</p>
+                <p className='footer-list-item'>555-555-5555</p>
+                <p className='footer-list-item'>info@ozarkairbnb.com</p>
             </div>
             <div className='footer-item-container'>
                 <h4 className='footer-header'>QUICK LINKS</h4>
-                <Link to='/'>HOME</Link>
-                <Link to='/rentals'>VACATION RENTALS</Link>
-                <Link to='management'>MANAGEMENT</Link>
-                <Link to='about'>ABOUT</Link>
-                <Link to='contact'>CONTACT US</Link>
+                <p className='footer-list-item'><Link to='/'>HOME</Link></p>
+                <p className='footer-list-item'><Link to='/rentals'>VACATION RENTALS</Link></p>
+                <p className='footer-list-item'><Link to='management'>MANAGEMENT</Link></p>
+                <p className='footer-list-item'><Link to='about'>ABOUT</Link></p>
+                <p className='footer-list-item'><Link to='contact'>CONTACT US</Link></p>
             </div>
             <div className='footer-item-container'>
                 <h4 className='footer-header'>HELP</h4>
+                <p><a href='/faq'>FAQ</a></p>
             </div>
             <div className='footer-item-container'>
                 <h4 className='footer-header'>SOCIAL</h4>
@@ -34,7 +35,7 @@ const Footer = () => {
                         <img className='footer-social-icon' src={FBIcon} alt="Clickable Icon of Facebook logo" />
                     </a>
 
-                    <a href="" rel="noreferrer noopener" target="_blank">
+                    <a href='/' rel="noreferrer noopener" target="_blank">
                         <img className='footer-social-icon' src={TwitterIcon} alt="Clickable Icon of Twitter logo" />
                     </a>
 
@@ -50,8 +51,8 @@ const Footer = () => {
             </div>
             <div className='footer-item-container'>
                 <h4>Copyright© 2022</h4>
-                <p>Ozark Airbnb, LLC</p>
-                <p>All Rights Reserved</p>
+                <p className='footer-list-item'>Ozark Airbnb, LLC</p>
+                <p className='footer-list-item'>All Rights Reserved</p>
             </div>
         </div>
     );

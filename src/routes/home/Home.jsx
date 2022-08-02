@@ -22,8 +22,16 @@ const Home = () => {
               <p className="home-bio-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus ullam veniam architecto soluta dolor itaque quasi quos, excepturi modi nostrum fugit distinctio iure nam minus delectus beatae laboriosam. Omnis expedita provident officia dolore tempore molestias minus totam, voluptas accusantium nam?</p>
             </div>
 
+            <div className="home-button-container">
+              <button className="home-book-button">
+                BOOK WITH US
+              </button>
+            </div>
+
             <div className="home-social-text">
-              Follow us | @ozarkairbnb!
+              Follow us | <a href="https://instagram.com/ozark.airbnb" rel="noreferrer noopener" target="_blank">
+              @ozark.airbnb
+              </a>!
             </div>
 
             <p className="home-contact-text">
